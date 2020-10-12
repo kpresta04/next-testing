@@ -28,6 +28,22 @@ export default function Home() {
 			>
 				Blue
 			</button>
+			<style jsx>
+				{`
+					.red {
+						color: red;
+					}
+					.blue {
+						color: blue;
+					}
+					.green {
+						color: green;
+					}
+					.orange {
+						color: orange;
+					}
+				`}
+			</style>
 		</div>
 	);
 }
